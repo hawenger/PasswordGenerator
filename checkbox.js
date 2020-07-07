@@ -1,1 +1,0 @@
-const generateBtn = document.getElementById('ready');
