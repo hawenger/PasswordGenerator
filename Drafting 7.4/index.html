@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <script defer src="checkbox.js"></script>
+
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+          <h1 class="title">Password Generator</h1>
+        </header>
+        <form>
+            <div class="close">+</div>
+            <div class="setting">
+                <label>Password length</label>
+                <input type="number" id="length" min='8' max='128' value='11' />
+            </div>
+            <div class="setting">
+                <label>Include uppercase letters</label> 
+                <input type="checkbox" id="uppercase" checked />
+            </div>
+            <div class="setting">
+                <label>Include lowercase letters</label> 
+                <input type="checkbox" id="lowercase" checked />
+            </div>
+            <div class="setting">
+                <label>Include numbers</label> 
+                <input type="checkbox" id="numbers" checked />
+            </div>
+            <div class="setting">
+                <label>Include symbols</label> 
+                <input type="checkbox" id="symbols" checked />
+            </div>
+        </form>
+        <button class="btn btn-large" id="generate">
+            Generate password
+        </button>
+            
+    <div class="container">
+        <div id="text"></div>
+        <div id="option-buttons" class="btn-grid">
+            <button class="btn">Option 1</button>
+            <button class="btn">Option 2</button>
+            <button class="btn">Option 3</button>
+            <button class="btn">Option 4</button>
+        </div>
+    </div>
+</body>
+</html>
