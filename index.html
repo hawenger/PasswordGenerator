@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
         <title>Password Generator</title>
         <link rel="stylesheet" href="../PasswordGenerator/assets/css/stylegenerator.css" />
         <link rel="stylesheet" href="../PasswordGenerator/assets/css/stylemodal.css">
@@ -15,10 +15,10 @@
         <section class="main-page">
             <div class="wrapper">
                 <header>
-                    <h1>Password Generator</h1>
+                    <h1 class="title">Password Generator</h1>
                 </header>
                 <div class="main-screen">
-                <h1>Ready for a new password?</h1>
+                <h1 class="title-question">Ready for a new password?</h1>
                 <button class="btn btn-ready" id="btn-ready">READY!</button>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                     <div class="card-body">
                     <textarea
                         readonly
-                        id="result"    
+                        id="password"    
                         placeholder="Your Secure Password"
                         aria-label="Generated Password"
                     ></textarea>

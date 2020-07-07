@@ -14,16 +14,19 @@ body,
 }
 
 body {
-
-  background-color: #f9fbfd;
+  background-color: #8c181f;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wrapper {
-
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 30px;
+  padding-top: 2.2em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  padding-bottom: 2.2em;
+  height: 100vh;
+  /*background-color: rgba(210, 193, 193, 0.57);*/
 }
 
 .main-page {
@@ -35,13 +38,40 @@ body {
 }
 
 header {
-  font-family: 'Dosis', sans-serif;
-  text-align: center;
-  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: 1.2em;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color:#bcd1d9;
   font-size: 2rem;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.57);
+  border: 1em solid;
+  border-radius: 100%;
+  background-image: url(../css/images/eyedarkblue.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.title {
+  position: relative;
+  top: 6.45em;
+  color: #e0e0e0;
+}
+
+.title-question {
+
+  color: #e0e0e0;
+}
+
+.main-screen {
+  margin-top: 10em;
+  border: .5em solid #e0e0e0;
+  padding: 1em;
+  margin-right: .5em;
+  margin-left: .5em;
+  background-color: rgba(255, 255, 255, 0.57);
 }
 
 .card {
@@ -98,16 +128,23 @@ header {
 .btn {
 
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: #222260;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color: #e0e0e0;
   display: inline-block;
   line-height: 1.5;
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
   text-align: center;
+}
+
+.btn:hover {
+
+  background-color: #ee6659;
+  border: .5em solid #222260;
+  transition: 0.06s;
   cursor: pointer;
 }
 
@@ -122,7 +159,7 @@ button[disabled] {
   float: right;
 }
 
-#result {  /* FKA "password" changed to aleviate confusion whilst coding as 'password' came up many times'*/
+#password {  /* FKA "password" changed to aleviate confusion whilst coding as 'password' came up many times'*/
 
   -webkit-appearance: none;
   -moz-appearance: none;

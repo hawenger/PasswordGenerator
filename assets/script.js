@@ -46,7 +46,7 @@ function() {
 });
 
 //DOM ELEMENTS PASSWORD GENERATOR
-const resultElement = document.getElementById('result');
+const passwordElement = document.getElementById('password');
 const lengthElement = document.getElementById('length');
 const lowercaseElement = document.getElementById('lowercase');
 const uppercaseElement = document.getElementById('uppercase');
@@ -73,7 +73,7 @@ function() {
     const hasNumber = numberElement.checked;
     const hasSymbol = symbolElement.checked;
 
-    resultElement.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length);  //Passing elements into result element inner text
+    passwordElement.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length);  //Passing elements into result element inner text
     //console.log(length);
     //console.log(hasLower);
     //console.log(hasUpper);
