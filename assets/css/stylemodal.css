@@ -33,12 +33,13 @@
     text-align: center;
     padding: 20px;
     position: relative;
+    margin-top: 5em;
 }
 
 .close-1, .close-2, .close-3 {
 
     position: absolute;
-    top: 0;
+    top: -28px;
     right: 14px;
     font-size: 42px;
     transform: rotate(45deg);
@@ -89,7 +90,10 @@ input  {
     display:none;
 }
 
+p {
 
+    font-size: .5em;
+}
 @media (min-width: 82em) {
 
     .close-1, .close-2, .close-3 {
