@@ -15,24 +15,24 @@
         <section class="main-page">
             <div class="wrapper">
                <div class="container-main-page">
-                    <header>
+                    <header aria-label="logo">
                     </header>
                 </div>
                 <div class="text-container">
-                    <h1 class="title">Password Generator</h1>
+                    <h1 aria-label="Website title"class="title">Password Generator</h1>
                 </div>     
                 <div class="main-screen">
                 <h1 class="title-question">Ready for a new password?</h1>
-                <button class="btn btn-ready" id="btn-ready">READY!</button>
+                <button aria-label="Open prompt screen" class="btn btn-ready" id="btn-ready">READY!</button>
                 </div>
             </div>
         </section>
                 <!--Begin Modals-->
         <div class="bg-modal-1">
             <div class="modal-content-1">
-                <div class="wrapper">
-                    <div class="close-1">+</div>
-                    <header>
+                <div class="wrapper-mods">
+                    <div aria-label="Close prompt screen" class="close-1">+</div>
+                    <header aria-hidden="true">
                         <h1>Password Generator</h1>
                     </header>
                     <div class="card">
@@ -42,20 +42,20 @@
                     <form class="form-modal-1">
                         <div class="input-label-container-1">
                             <label>Password Length</label>
-                            <input type="number" id="length" min='8' max='128' value='11' />
+                            <input aria-label="Box to type number of characters for new password" type="number" id="length" min='8' max='128' value='11' />
                         </div>
                     </form>
                     <div class="card-footer">
-                        <button id="modal-1-next" class="btn btn-next">Next</button>
+                        <button aria-lable="Next prompt" id="modal-1-next" class="btn btn-next">Next</button>
                     </div>
                 </div>    
             </div>
         </div>
         <div class="bg-modal-2">
             <div class="modal-content-2">   
-                <div class="wrapper">
-                    <div class="close-2">+</div>
-                    <header>
+                <div class="wrapper-mods">
+                    <div aria-label="Close prompt screen" class="close-2">+</div>
+                    <header aria-hidden="true">
                         <h1>Password Generator</h1>
                     </header>
                     <div class="card">
@@ -65,37 +65,37 @@
                     <form>
                         <div class="input-label-container">
                             <label>Include Uppercase Letters</label> 
-                            <input type="checkbox" id="uppercase" checked />
+                            <input aria-label="Check box for uppercase letters" type="checkbox" id="uppercase" checked />
                         </div>
                         <div class="input-label-container">
                             <label>Include Lowercase Letters</label> 
-                            <input type="checkbox" id="lowercase" checked />
+                            <input aria-label="Check box for lowercase letters" type="checkbox" id="lowercase" checked />
                         </div>
                         <div class="input-label-container">
                             <label>Include Numbers</label> 
-                            <input type="checkbox" id="number" checked />
+                            <input aria-label="Check box for numbers" type="checkbox" id="number" checked />
                         </div>
                         <div class="input-label-container">
                             <label>Include Symbols</label> 
-                            <input type="checkbox" id="symbol" checked />
+                            <input aria-label="Check box for symbols" type="checkbox" id="symbol" checked />
                         </div>
                     </form>
                     <div class="card-footer">
-                        <button id="modal-2-next" class="btn btn-next">NEXT</button>
+                        <button aria-label="Next prompt" id="modal-2-next" class="btn btn-next">NEXT</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="bg-modal-3">
             <div class="modal-content-3"> 
-                <div class="wrapper">
-                    <div class="close-3">+</div>
-                    <header>
+                <div class="wrapper-mods">
+                    <div aria-label="Close prompt screen" class="close-3">+</div>
+                    <header aria-hidden="true">
                         <h1>Password Generator</h1>
                     </header>
                     <div class="card">
                         <div class="card-header">
-                        <h2>Generated Password</h2> <!--id for textarea riginally "password" -->
+                        <h2>Generated Password</h2>
                     <div class="card-body">
                     <textarea
                         readonly
@@ -105,9 +105,9 @@
                     ></textarea>
                     </div>
                     <div class="card-footer">
-                    <button id="generate" class="btn btn-next">GENERATE PASSWORD</button>
+                    <button aria-label="On click generate password" id="generate" class="btn btn-next">GENERATE PASSWORD</button>
                     <div id="restartbtnbox">
-                    <button id="restart" class="btn btn-next">START OVER</button>
+                    <button aria-label="On click return to prompts" id="restart" class="btn btn-next">START OVER</button>
                     </div>
                     </div>
                 </div>

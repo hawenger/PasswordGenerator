@@ -23,18 +23,15 @@ function() {
 //Exit Screen
 document.querySelector('.close-1').addEventListener('click', 
 function() {
-    document.querySelector('.bg-modal-1').style.display = 'none';
+    location.reload();
 });
 document.querySelector('.close-2').addEventListener('click', 
 function() {
-    document.querySelector('.bg-modal-2').style.display = 'none';
-    document.querySelector('.bg-modal-1').style.display = 'none';
+    location.reload();
 });
 document.querySelector('.close-3').addEventListener('click', 
 function() {
-    document.querySelector('.bg-modal-3').style.display = 'none';
-    document.querySelector('.bg-modal-2').style.display = 'none';
-    document.querySelector('.bg-modal-1').style.display = 'none';
+    location.reload();
 });
 //Start Over
 document.getElementById('restart').addEventListener('click',

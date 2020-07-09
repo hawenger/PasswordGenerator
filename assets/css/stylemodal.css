@@ -90,3 +90,16 @@ input  {
 }
 
 
+@media (min-width: 82em) {
+
+    .close-1, .close-2, .close-3 {
+
+        right: 111px;
+      }
+
+
+    .modal-content-1, .modal-content-2, .modal-content-3 {
+
+        padding: 5em;
+    }
+}

@@ -201,44 +201,68 @@ button[disabled] {
 
 @media (min-width: 43rem) {
 
-    .main-screen {
+  .main-screen {
 
-      margin-right: 15%;
-      margin-left: 15%;
-    }
+    margin-right: 15%;
+    margin-left: 15%;
+  }
 
-    .card {
+  .card {
 
-        padding: 5rem;
-    }
+    padding: 5rem;
+  }
 }
 
 
 @media (min-width: 62rem) {
 
-    .btn {
+  .btn {
 
-      font-size: 1rem;
-    }
+    font-size: 1rem;
+  }
 
-    .card {
+  .card {
 
-        padding: 10rem;
-    }
+    padding: 10rem;
+  }
+
+  .title-question {
+     
+    font-size: 1.5em;
+  }
+
+  .text-container {
+ 
+    font-size: 1.8rem;
+  }
 }  
 
 @media (min-width: 82rem) {
 
-    .btn {
+  .btn {
 
-      padding: .5rem 4rem;
-      margin-top: 2rem;
-    }
+    padding: .5rem 4rem;
+    margin-top: 2rem;
+  }
 
-    .card {
+  .card {
 
-        padding: 10rem;
-    }
+    padding: 10rem;
+  }
+
+  .main-screen {
+
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+
+  html, 
+  body, 
+  .main-page,  {
+      
+    margin: 0 5em;
+  }
+
 }
 
 
