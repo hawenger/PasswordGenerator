@@ -69,6 +69,7 @@ An interactive password generator with modals to keep user engaged and encourage
         I thought a slider selector instead of user inputing a number into a box might be a fun function to integrate into the Password Generator.  Ultimatley, I decided against it as slide functions can be frustrating to navigate on keyboards, with certain phones, on small screens and generally aren't the most user accesible.  However, this would have omitted to the bug mentioned in the modal one section, setting firm, visual paramteres for the user, making it near impossible to select fewer than 8 or more than 128 characters.
 
     >Modal Method
+![Checkboxes - Deciding on modals and Checkboxes](../README/assets/images/integratedcheckbox.png)
         In the end, I settled on using modals for the Password Generator.  Wanting to rely more on HTML and CSS than javascript for accesibility reasons and minimize javascript objects.  This also allowed for what I felt was easier integration of user inputs and a quicker prompt process, i.e instead of user moving through a monotonous series of yes or no questions, user had the option to select legnth, then characters, then generate password.  A quick but still highly interactive process.
 
 >References 

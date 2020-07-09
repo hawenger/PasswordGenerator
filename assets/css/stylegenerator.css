@@ -1,6 +1,7 @@
 *,
 *::before,
 *::after {
+
   box-sizing: border-box;
 }
 
@@ -21,28 +22,15 @@ body {
 }
 
 .wrapper {
+
   padding-top: 1em;
   padding-left: 1.2em;
   padding-right: 1.2em;
   padding-bottom: 2.2em;
   display: grid;
   grid-template-rows: minmax(21em, auto);
-  /*background-color: rgba(210, 193, 193, 0.57);*/
 }
 
-.main-page {
-
-}
-.text-container {
-
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  color:#e0e0e0;
-}
 .container-main-page {
 
   display: flex;
@@ -51,6 +39,7 @@ body {
 }
 
 header {
+
   font-family: 'Montserrat', sans-serif;
   color:#e0e0e0;
   height: 15rem;
@@ -68,10 +57,21 @@ header {
   align-items: end;
 }
 
+.text-container {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  color:#e0e0e0;
+}
+
 .title {
+
   color: #e0e0e0;
   margin: 0;
-
 }
 
 .title-question {
@@ -81,6 +81,7 @@ header {
 }
 
 .main-screen {
+
   margin-top: 3em;
   text-align: center;
   border: .5em solid #e0e0e0;
@@ -175,7 +176,7 @@ button[disabled] {
   float: right;
 }
 
-#password {  /* FKA "password" changed to aleviate confusion whilst coding as 'password' came up many times'*/
+#password {  
 
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -197,7 +198,7 @@ button[disabled] {
   overflow: hidden;
 }
 
-
+/*Begin Media Queries*/
 
 @media (min-width: 43rem) {
 
@@ -255,14 +256,6 @@ button[disabled] {
     margin-right: 20%;
     margin-left: 20%;
   }
-
-  html, 
-  body, 
-  .main-page  {
-      
-    margin: 0 5em;
-  }
-
 }
 
 
